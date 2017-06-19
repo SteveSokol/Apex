@@ -1,0 +1,324 @@
+[Root]
+Most Recent Package=Apex Setup Package
+Most Recent Deploy=Apex Folder Deployment
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINDOWS\newapex
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=Yes
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+c:\windows\newapex\apexwin.hlp=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\newapex\Apex.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\DBLIST32.OCX=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\SYSTEM\Msjet35.dll=Yes
+C:\WINDOWS\SYSTEM\Msjter35.dll=Yes
+C:\WINDOWS\SYSTEM\Msjint35.dll=Yes
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=Yes
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=Yes
+C:\WINDOWS\SYSTEM\Msrd2x35.dll=Yes
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM\VB5DB.DLL=Yes
+C:\WINDOWS\SYSTEM\GRID32.OCX=Yes
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\newapex\APEXWIN.HLP=Yes
+C:\WINDOWS\SYSTEM\MSRDO20.DLL=Yes
+C:\WINDOWS\SYSTEM\RDOCURS.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\WINDOWS\newapex\Apex.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DBLIST32.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\Msjet35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Msjter35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Msjint35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\GRID32.OCX=$(AppPath)
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\newapex\APEXWIN.HLP=$(AppPath)
+C:\WINDOWS\SYSTEM\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RDOCURS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\newapex\Apex.exe=No
+C:\WINDOWS\SYSTEM\GRID32.OCX=No
+C:\WINDOWS\newapex\APEXWIN.HLP=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=multi
+Size=1.44 MB
+Title=Apex for Windows
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Apex for Windows
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Apex for Windows]
+Icon1=Apex.exe
+Title1=Apex for Windows
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\WINDOWS\newapex
+ProjectFolder=C:\WINDOWS\newapex
+ServerSideCab=
+File1=C:\WINDOWS\newapex\setup.exe
+File2=C:\WINDOWS\newapex\Setup.Lst
+File3=C:\WINDOWS\newapex\Apex1.CAB
+File4=C:\WINDOWS\newapex\Apex2.CAB
+File5=C:\WINDOWS\newapex\Apex3.CAB
+File6=C:\WINDOWS\newapex\Apex4.CAB
+File7=C:\WINDOWS\newapex\Apex5.CAB
+File8=C:\WINDOWS\newapex\Apex6.CAB
+File9=C:\WINDOWS\newapex\Apex7.CAB
+File10=C:\WINDOWS\newapex\Apex8.CAB
+File11=C:\WINDOWS\newapex\Apex9.CAB
+File12=C:\WINDOWS\newapex\Apex10.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
+
+[Deploy|Floppy Deployment 1|Root]
+Package=Standard Setup Package 1
+Handler=PDWizard.FloppyDplySubWiz
+Floppy Drive=a:\
+Format=Yes
+
+[Deploy|Apex Folder Deployment|Root]
+Package=Apex Setup Package
+Handler=PDWizard.FolderDplySubWiz
+Floppy Drive=a:\
+Format=Yes
+Folder=C:\WINDOWS\newapex\Distribution Files
+
+
+[Package|Apex Setup Package|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINDOWS\newapex\Distribution Files
+
+[Package|Apex Setup Package|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|Apex Setup Package|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Apex Setup Package|Files Found]
+
+[Package|Apex Setup Package|Files Released]
+
+[Package|Apex Setup Package|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=
+
+[Package|Apex Setup Package|Out-of-Date Dependency Information]
+
+[Package|Apex Setup Package|Files Added]
+c:\windows\newapex\apexwin.hlp=
+c:\windows\newapex\distribution files\apxhlp03.hlp=
+
+[Package|Apex Setup Package|Files Removed]
+c:\windows\newapex\apexwin.hlp=
+
+[Package|Apex Setup Package|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\newapex\APEXWIN.HLP=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\WINDOWS\system32\comctl32.ocx=Yes
+C:\WINDOWS\system32\DBLIST32.OCX=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\WINDOWS\system32\RDOCURS.DLL=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\WINDOWS\newapex\Distribution Files\apxhlp03.hlp=Yes
+C:\WINDOWS\newapex\Apex.exe=Yes
+
+[Package|Apex Setup Package|Configure Registry Files]
+Applicable=No
+
+[Package|Apex Setup Package|Configure Remote Servers]
+Applicable=No
+
+[Package|Apex Setup Package|Install Locations]
+C:\WINDOWS\newapex\Apex.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DBLIST32.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\Msjet35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Msjter35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Msjint35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\GRID32.OCX=$(AppPath)
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\newapex\APEXWIN.HLP=$(AppPath)
+C:\WINDOWS\SYSTEM\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RDOCURS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Common Files\MS Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\comctl32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\newapex\Distribution Files\Apex.exe=$(AppPath)
+C:\WINDOWS\newapex\Apex=$(AppPath)
+C:\WINDOWS\newapex\Distribution Files\Apex=$(AppPath)
+C:\WINDOWS\newapex\Distribution Files\apxhlp03.hlp=$(AppPath)
+
+[Package|Apex Setup Package|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\newapex\Apex.exe=No
+C:\WINDOWS\SYSTEM\GRID32.OCX=No
+C:\WINDOWS\newapex\APEXWIN.HLP=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\WINDOWS\newapex\Distribution Files\Apex.exe=No
+C:\WINDOWS\newapex\Apex=No
+C:\WINDOWS\newapex\Distribution Files\Apex=No
+C:\WINDOWS\newapex\Distribution Files\apxhlp03.hlp=No
+
+[Package|Apex Setup Package|Distribution]
+Type=single
+Size=1.44 MB
+Title=Apex for Windows
+
+[Package|Apex Setup Package|Package]
+PackageFolder=C:\WINDOWS\newapex\Distribution Files
+ProjectFolder=C:\WINDOWS\newapex
+ServerSideCab=
+File1=C:\WINDOWS\newapex\Distribution Files\setup.exe
+File2=C:\WINDOWS\newapex\Distribution Files\Setup.Lst
+File3=C:\WINDOWS\newapex\Distribution Files\Apex.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Apex Setup Package|IconGroups]
+Group0=Apex for Windows
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Apex Setup Package|Apex for Windows]
+Icon1=Apex.exe
+Title1=Apex for Windows
+StartIn1=$(AppPath)
+Key1=Icon1

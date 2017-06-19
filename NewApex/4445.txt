@@ -1,0 +1,47 @@
+
+Lincoln Project - 300 tpd                                Pre-Feasibility Review
+Sutter Gold Mining, Inc.                         Greenstone By-Product Analysis
+
+Depreciation Schedule
+
+Year                                1             2             3             4
+
+Engineering & Construction $2,722,889      $214,965      $214,965      $214,965
+Development                  $686,152       $54,170       $54,170       $54,170
+Mine Equipment               $423,981      $726,825      $519,160      $370,829
+Mill Equipment               $224,595      $385,020      $275,014      $196,439
+Working Capital            $1,506,634             $             $             $
+Contingency                  $426,343       $33,659       $33,659       $33,659
+Reclamation                         $             $             $             $
+Buildings, Mine               $27,173       $54,346       $54,346       $54,346
+Buildings, Mill               $56,500      $112,999      $112,999      $112,999
+Tails Storage              $1,004,706       $79,319       $79,319       $79,319
+Total                      $7,078,972    $1,661,302    $1,343,632    $1,116,725
+
+Thursday, May 19, 2005                          Apex for Windows - Version 3.03
+
+
+
+Lincoln Project - 300 tpd                                Pre-Feasibility Review
+Sutter Gold Mining, Inc.                         Greenstone By-Product Analysis
+
+Depreciation Schedule
+
+Year                                5             6             7             8
+
+Engineering & Construction   $214,965             $             $             $
+Development                   $54,170             $             $             $
+Mine Equipment               $264,878      $264,878      $264,878      $132,439
+Mill Equipment               $140,313      $140,313      $140,313       $70,157
+Working Capital                     $             $             $             $
+Contingency                   $33,659             $             $             $
+Reclamation                         $             $    $1,926,811             $
+Buildings, Mine               $54,346       $54,346       $54,346    $1,385,825
+Buildings, Mill              $112,999      $112,999      $112,999    $2,881,482
+Tails Storage                 $79,319             $             $             $
+Total                        $954,649      $572,536    $2,499,347    $4,469,903
+
+Thursday, May 19, 2005                          Apex for Windows - Version 3.03
+
+
+
